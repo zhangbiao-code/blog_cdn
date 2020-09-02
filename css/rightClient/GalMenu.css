@@ -71,9 +71,9 @@ a {
 	width:60px;
 	background-size:80px;
 	/*border:2px #b59494 solid;*/
-	/*box-shadow:0px 0px 15px #fff;*/
-	/*-webkit-box-shadow:0px 0px 15px #fff;*/
-	/*-moz-box-shadow:0px 0px 15px #fff;*/
+	box-shadow:0px 0px 15px #fff;
+	-webkit-box-shadow:0px 0px 15px #fff;
+	-moz-box-shadow:0px 0px 15px #fff;
 }
 .menuItem:hover {
 	box-shadow:inset 0px 0px 80px #fff;
@@ -107,10 +107,10 @@ a {
 	*filter:Glow(color=#DC965A,strength=1);
 }
 .ring a:hover {
-	background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
 	text-shadow:#66CCFF 1px 0 0,#66CCFF 0 1px 0,#66CCFF -1px 0 0,#66CCFF 0 -1px 0;
 	-webkit-text-shadow:#66CCFF 1px 0 0,#66CCFF 0 1px 0,#66CCFF -1px 0 0,#66CCFF 0 -1px 0;
 	-moz-text-shadow:#66CCFF 1px 0 0,#66CCFF 0 1px 0,#66CCFF -1px 0 0,#66CCFF 0 -1px 0;
+	*filter:Glow(color=#66CCFF,strength=1);
 }
 
 .container {
